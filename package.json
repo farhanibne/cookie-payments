@@ -1,0 +1,25 @@
+{
+  "name": "payment_gateway",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.46.0",
+    "@types/react": "^18.0.28",
+    "firebase": "^8.7.0",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6"
+  }
+}
